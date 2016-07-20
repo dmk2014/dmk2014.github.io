@@ -70,10 +70,6 @@ a:hover{
 }
 
 p.copyright{
-	position: absolute;
-	bottom: 0;
-	text-align: centre;
-	width: 100%;
 	font-size:13px;
 	margin-top:30px;
 }
