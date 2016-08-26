@@ -1,0 +1,33 @@
+.site-title-container {
+  text-align: center;
+  padding-top: 10px;
+
+  @media (max-width: $on-palm) {
+    padding-bottom: 10px;
+  }
+}
+
+.selfie {
+  border-radius: 100%;
+  margin: 0px 20px;
+}
+
+.title {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.site-title-link {
+  float: none;
+}
+
+.center-nav {
+  float: none;
+  text-align: center;
+}
+
+/* Remove terrible Minima top border */
+.site-header {
+  border-top: none;
+}
