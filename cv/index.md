@@ -5,12 +5,13 @@ title: CV
 
 Below is an overview of my CV. Alternatively, you may view this information as a [PDF](/resources/cv.pdf).
 
-The skills displayed are by no means exhaustive, though they do represent what I currently feel is most relevant.
+The languages and tools displayed are by no means exhaustive, though they do represent what I currently feel is most relevant.
 
 {% highlight json %}
 
 {
-   "Skills": ["Javascript, Typescript, C#, SQL, Angular, Ionic"],
+   "Languages": ["TypeScript", "C#", "VB.NET", "Java", "SQL", "HTML", "CSS", "JavaScript"],
+   "Tools": ["Angular", "Ionic", "Visual Studio", "SQL Server", "Various NoSQL"],
    "Work": [
       {
          "Title": "Software Developer",
