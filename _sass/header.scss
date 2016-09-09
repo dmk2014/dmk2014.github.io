@@ -12,6 +12,7 @@
   margin: 0px 20px;
 }
 
+/* Header & Subheader Container */
 .title {
   display: inline-block;
   vertical-align: middle;
@@ -19,9 +20,14 @@
 }
 
 .site-title-link {
-  float: none;
+  letter-spacing: 0px; /* Override */
 }
 
+.site-title-link:hover {
+  text-decoration: none;
+}
+
+/* Override Navigation Alignment */
 .center-nav {
   float: none;
   text-align: center;
