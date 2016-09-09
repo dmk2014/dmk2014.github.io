@@ -10,8 +10,9 @@ The languages and tools displayed are by no means exhaustive, though they do rep
 {% highlight json %}
 
 {
-   "Languages": ["TypeScript", "C#", "VB.NET", "Java", "SQL", "HTML", "CSS", "JavaScript"],
-   "Tools": ["Angular", "Ionic", "Visual Studio", "SQL Server", "Various NoSQL"],
+   "Languages": ["TypeScript", "C#", "VB.NET", "Java", "SQL", "JavaScript"],
+   "Tools": ["Angular", "Ionic", "Git", "Subversion", ],
+   "Databases": ["SQL Server", "Various NoSQL"],
    "Work": [
       {
          "Title": "Software Developer",
