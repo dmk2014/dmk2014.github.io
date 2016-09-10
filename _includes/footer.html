@@ -2,28 +2,31 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title | escape }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-          {% if site.github_username %}
+          <!-- Icons by https://www.iconfinder.com/iconsets/free-social-icons -->
           <li>
-            {% include icon-github.html username=site.github_username %}
+            <a href="http://github.com/{{site.github_username}}" title="View my GitHub">
+              <span class="icon">{% include icon-github.svg %}</span>
+            </a>
           </li>
-          {% endif %}
+          <li>
+            <a href="https://ie.linkedin.com/in/darren-keane-a3506781" title="View my LinkedIn profile">
+              <span class="icon">{% include icon-linkedin.svg %}</span>
+            </a>
+          </li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+        <p>&copy;{{ 'now' | date:'%Y' }} Darren Keane</p>
       </div>
     </div>
 
