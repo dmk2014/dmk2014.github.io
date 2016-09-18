@@ -13,13 +13,18 @@
         <ul class="social-media-list">
           <!-- Icons by https://www.iconfinder.com/iconsets/free-social-icons -->
           <li>
-            <a href="http://github.com/{{site.github_username}}" title="View my GitHub">
+            <a href="http://github.com/{{site.github_username}}" title="Visit my GitHub">
               <span class="icon">{% include icon-github.svg %}</span>
             </a>
           </li>
           <li>
-            <a href="https://ie.linkedin.com/in/darren-keane-a3506781" title="View my LinkedIn profile">
+            <a href="https://ie.linkedin.com/in/darren-keane-a3506781" title="Visit my LinkedIn">
               <span class="icon">{% include icon-linkedin.svg %}</span>
+            </a>
+          </li>
+          <li>
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="Subscribe via RSS">
+              <span class="icon">{% include icon-rss.svg %}</span>
             </a>
           </li>
         </ul>

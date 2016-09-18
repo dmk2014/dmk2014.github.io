@@ -7,8 +7,21 @@ ul li {
   display: inline;
 }
 
+.footer-col-wrapper {
+  margin-left: 0px;
+}
+
 .footer-col {
   text-align: center;
+  padding-left: 0px;
+  width: -webkit-calc(33%);
+  width: calc(33%);
+
+  /* Use Minima default to centre contents when footer drops */
+  @media (max-width: $on-palm) {
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2));
+  }
 }
 
 .footer-col a:hover {
