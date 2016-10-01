@@ -24,3 +24,6 @@ github_username:  dmk2014
 # Build settings
 markdown: kramdown
 theme: minima
+
+# Required after switching to GitHub pages Gem
+repository: dmk2014/dmk2014.github.io
