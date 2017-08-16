@@ -13,14 +13,14 @@ Conversion from a Cocoa to Unix timestamp is trivial, as shown in the below samp
 
 ```go
 // Coca Epoch, expressed as a Unix Timestamp
-cocoaEpoch := time.Date(2001, 01, 01, 0, 0, 0, 0, time.UTC).Unix()
+cocoaEpochTimestamp := time.Date(2001, 01, 01, 0, 0, 0, 0, time.UTC).Unix()
 
 // Cocoa Timestamp (Tuesday 15 August 2017 19:35:02)
-cocoaTimestamp := time.Unix(524518502, 0).Unix()
+var cocoaTimestamp int64 = 524518502
 
-// Unix Timestamp = Cocoa Epoch + Cocoa Timestamp
-unixTime := time.Unix(cocoaEpoch+cocoaTimestamp, 0).Unix()
+// Unix Timestamp = Cocoa Epoch Timestamp + Cocoa Timestamp
+unixTimestamp := cocoaEpochTimestamp + cocoaTimestamp
 
 // Prints Unix Timestamp: 1502825702 - Tuesday 15 August 2017 19:35:02
-fmt.Println(unixTime)
+fmt.Println(unixTimestamp)
 ```
