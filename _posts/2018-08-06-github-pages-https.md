@@ -15,10 +15,10 @@ Setting up a custom domain for HTTPS is straightforward, though a little differe
 
 Once any existing A records for the apex domain have been removed, four new A records should be created to point to the IP addresses [specified by GitHub](https://help.github.com/articles/setting-up-an-apex-domain/). These are:
 
-+ 185.199.108.153
-+ 185.199.109.153
-+ 185.199.110.153
-+ 185.199.111.153
+1. 185.199.108.153
+2. 185.199.109.153
+3. 185.199.110.153
+4. 185.199.111.153
 
 The DNS records may take a few minutes to update. You can quickly check if the DNS update has propagated using `dig +noall +answer yourdomain.com`.
 
