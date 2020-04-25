@@ -1,3 +1,15 @@
-.vscode
-.DS_Store
-node_modules
+# Based on examples by https://www.gitignore.io/
+
+### Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### Node ###
+# Logs
+npm-debug.log*
+
+# Dependency directories
+node_modules/
